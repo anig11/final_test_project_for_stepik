@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from .locators import ProductPageLocators, BasePageLocators, BasketPageLocators
 from selenium.common.exceptions import NoAlertPresentException, NoSuchElementException, TimeoutException
 import math
+import pytest
+from selenium import webdriver
 
 class BasketPage(BasePage):
     

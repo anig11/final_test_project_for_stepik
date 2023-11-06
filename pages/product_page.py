@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from .locators import ProductPageLocators
 from selenium.common.exceptions import NoAlertPresentException
 import math
+import pytest
+from selenium import webdriver
 
 
 
